@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetSchema.Common\NetSchema.Common.csproj" />
+    <ProjectReference Include="..\NetSchema.Data\NetSchema.Data.csproj" />
+    <ProjectReference Include="..\NetSchema.Json\NetSchema.Json.csproj" />
+    <ProjectReference Include="..\NetSchema.Resolve\NetSchema.Resolve.csproj" />
+    <ProjectReference Include="..\NetSchema.Rules\NetSchema.Rules.csproj" />
+    <ProjectReference Include="..\NetSchema.Xml\NetSchema.Xml.csproj" />
+    <ProjectReference Include="..\NetSchema\NetSchema.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+{
+  "net-device:device": {
+    "hostname": "my-device",
+    "mgmt-ip": "10.25.0.1",
+    "spanning-tree": {
+      "mst": {
+        "region-name": "mst-region-1"
+      }
+    },
+    "non-keyed-list": [
+      {
+        "test-item": "Alpha"
+      },
+      {
+        "test-item": "Bravo"
+      }
+    ],
+    "interfaces": {
+      "interface": [
+        {
+          "name": "GigabitEthernet1/0/1",
+          "enabled": true
+        },
+        {
+          "name": "GigabitEthernet1/0/2",
+          "enabled": false
+        }
+      ]
+    },
+    "dns-server": [
+      "8.8.8.8",
+      "1.1.1.1"
+    ]
+  }
+}

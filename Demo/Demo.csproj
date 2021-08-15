@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetSchema.Data\NetSchema.Data.csproj" />
+    <ProjectReference Include="..\NetSchema.Json\NetSchema.Json.csproj" />
+    <ProjectReference Include="..\NetSchema.Resolve\NetSchema.Resolve.csproj" />
+    <ProjectReference Include="..\NetSchema.Xml\NetSchema.Xml.csproj" />
+    <ProjectReference Include="..\NetSchema\NetSchema.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

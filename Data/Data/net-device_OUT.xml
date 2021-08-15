@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <device xmlns="uri:example:net-device">
+    <hostname>my-device</hostname>
+    <mgmt-ip>10.25.0.1</mgmt-ip>
+    <spanning-tree>
+      <mst>
+        <region-name>mst-region-1</region-name>
+      </mst>
+    </spanning-tree>
+    <non-keyed-list>
+      <test-item>Alpha</test-item>
+    </non-keyed-list>
+    <non-keyed-list>
+      <test-item>Bravo</test-item>
+    </non-keyed-list>
+    <interfaces>
+      <interface>
+        <name>GigabitEthernet1/0/1</name>
+        <enabled>true</enabled>
+      </interface>
+      <interface>
+        <name>GigabitEthernet1/0/2</name>
+        <enabled>false</enabled>
+      </interface>
+    </interfaces>
+    <dns-server>8.8.8.8</dns-server>
+    <dns-server>1.1.1.1</dns-server>
+  </device>
+</data>

@@ -1,0 +1,23 @@
+﻿Identifiers and their namespaces
+    TopLevel: 
+        module, submodule
+    Extension: 
+        extension
+    Feature: 
+        feature
+    Identity: 
+        identity
+    Types: 
+        typedef
+    Grouping: 
+        grouping
+    Case: 
+        All cases within a choice share the same case identifier namespace.  This namespace is scoped to the parent choice node.
+    Data: 
+        leaf, leaf-list, list, container, choice, anydata, anyxml,       rpc, action, notification
+	
+Data Definition Statement:
+        leaf, leaf-list, list, container, choice, anydata, anyxml,       case, augment, uses
+    
+    
+    
